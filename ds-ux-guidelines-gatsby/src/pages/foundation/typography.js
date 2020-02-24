@@ -3,7 +3,6 @@ import Layout from "../../ds-components/layout/layout"
 import ContentHeader from "../../ds-components/content-header/contenHeader"
 import SEO from "../../ds-components/seo"
 
-import '../../../../ds-css/src/styles/cbp-ds.scss';
 
 const TypographyPage = () => (
   <Layout>
@@ -11,7 +10,7 @@ const TypographyPage = () => (
     <ContentHeader title="Typography" />
 
     <article>
-      <p>
+      <p class="cbp-body">
         Having a well thought-out and managed typography system drives retention
         and understanding of information, and helps our users make the informed
         decisions that keep our country safe. This isn't simply what typeface we

@@ -5,7 +5,12 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        data: `@import "../../../../ds-css/src/styles/cbp-ds.scss";`,
+      }
+    },
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
     {
