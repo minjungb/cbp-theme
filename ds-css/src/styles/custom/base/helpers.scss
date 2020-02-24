@@ -95,6 +95,17 @@
   }
 }
 
+.cbp-body {
+  font-size: 1rem;
+  font-weight: $cbp-weight-regular;
+  line-height: $cbp-height-20;
+  letter-spacing: $cbp-font-spacing;
+
+  &--dark {
+    @include dark;
+  }
+}
+
 /* Supporting Text Classes */
 .cbp-subhead-text {
   font-size: 0.889rem;
