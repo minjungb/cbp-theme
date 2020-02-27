@@ -2,11 +2,15 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+
+//So far there is only contentType = component or 'none' (has no tabs). 
+//Need to ditch the if/else statement if we implement additional types
+
 const ContentHeader = ({ title, contentType }) => {
-  if(contentType == "component"){
+  if(contentType === "component"){
     return (
       <div className="cbp-content__header">
-        <h1 className="cbp-heading-1 one-half-pad-temp">{title}</h1>
+        <h1 className="cbp-masthead-1 heading-pad-temp">{title}</h1>
         <div className="tabs is-boxed">
           <ul>
             <li>
@@ -25,10 +29,12 @@ const ContentHeader = ({ title, contentType }) => {
         </div>
       </div>
     );
+
   } else {
+    //Omit the Code/Design tabs. 
     return (
-      <div classNAme="cbp-content__header">
-        <h1 className="cbp-heading-1 one-half-pad-temp">{title}</h1>
+      <div className="cbp-content__header">
+        <h1 className="cbp-masthead-1 heading-pad-temp">{title}</h1>
       </div>
     );
   }
