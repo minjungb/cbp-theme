@@ -54,7 +54,157 @@ const TypographyPage = () => (
         Earlier we established that our body copy will be 14px. It's a good industry standard practice to use a 4px baseline grid, meaning all spacing will be a multiple or factor of 4.
       </p>
     </section>
+
+    <section class="section-spacing">
+      <h2 class="cbp-heading-2 section-pad-temp">Specifications</h2>
+      <table className="table is-hoverable is-fullwidth">
+        <caption style={{textAlign: "left", marginBottom: "1rem", fontWeight: "bold"}}>CBP Design System Type Scale</caption>
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Selector Name</th>
+                <th scope="col">Size</th>
+                <th scope="col">Font Weight</th>
+                <th scope="col">Line Height</th>
+                <th scope="col">Aliasing</th>
+                <th scope="col">Letter Spacing</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Masthead 1</td>
+                <td><code>.cbp-masthead-1</code></td>
+                <td>36px</td>
+                <td>100</td>
+                <td>44px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Masthead 2</td>
+                <td><code>.cbp-masthead-2</code></td>
+                <td>32px</td>
+                <td>100</td>
+                <td>40px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Heading 1</td>
+                <td><code>.cbp-heading-1</code></td>
+                <td>28px</td>
+                <td>300</td>
+                <td>40px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Heading 2</td>
+                <td><code>.cbp-heading-2</code></td>
+                <td>25px</td>
+                <td>400</td>
+                <td>32px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Heading 3</td>
+                <td><code>.cbp-heading-3</code></td>
+                <td>22px</td>
+                <td>400</td>
+                <td>28px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Heading 4</td>
+                <td><code>.cbp-heading-2</code></td>
+                <td>20px</td>
+                <td>500</td>
+                <td>28px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Heading 5</td>
+                <td><code>.cbp-heading-5</code></td>
+                <td>20px</td>
+                <td>500</td>
+                <td>24px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Heading 6</td>
+                <td><code>.cbp-heading-6</code></td>
+                <td>16px</td>
+                <td>700</td>
+                <td>20px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Body</td>
+                <td><code>.cbp-body</code></td>
+                <td>14px</td>
+                <td>400</td>
+                <td>20px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br/><br/>
+
+          <table class="table is-hoverable is-fullwidth">
+            <caption style={{textAlign: "left", marginBottom: "1rem", fontWeight: "bold"}}>Support Type Classes</caption>
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Selector Name</th>
+                <th scope="col">Size</th>
+                <th scope="col">Font Weight</th>
+                <th scope="col">Line Height</th>
+                <th scope="col">Aliasing</th>
+                <th scope="col">Letter Spacing</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Button Text</td>
+                <td><code>.cbp-button-text</code></td>
+                <td>14px</td>
+                <td>500</td>
+                <td>normal</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+
+              <tr>
+                <td>Subhead</td>
+                <td><code>.cbp-subhead-text</code></td>
+                <td>12px</td>
+                <td>500</td>
+                <td>20px</td>
+                <td>TBD</td>
+                <td>0.12 (TBD)</td>
+              </tr>
+            </tbody>
+          </table>
+          <br/><br/>
+    </section>
     </article>
+    
   </Layout>
 )
 
