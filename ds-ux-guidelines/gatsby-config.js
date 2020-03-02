@@ -6,12 +6,7 @@ module.exports = {
     author: `Creative Services`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        data: `@import "../../../../ds-css/src/styles/cbp-ds.scss";`,
-      }
-    },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
     {
