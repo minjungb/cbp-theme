@@ -21,8 +21,8 @@ iFrame {
   padding: 5rem 2rem 3rem 2rem;
 }
 
-.section-pad-temp {
-  padding-bottom: 3rem;
+.pad-bottom {
+  padding-bottom: 1.5rem;
 }
 
 .one-half-pad-temp {
@@ -40,4 +40,46 @@ iFrame {
   }
 }
 
+section {
+  margin: 1.5rem auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 /* Temporary class until grid sizing, padding guidance is completed */
+
+.img-frame {
+  box-shadow:
+  0 3.3px 2.7px rgba(0, 0, 0, 0.03),
+  0 10px 6.9px rgba(0, 0, 0, 0.031),
+  0 22.7px 14.2px rgba(0, 0, 0, 0.023),
+  0 47.4px 29.2px rgba(0, 0, 0, 0.018),
+;
+  width: 80%;
+  border-radius: 3px;
+  padding: 25px 20px 15px 20px; 
+}
+
+
+
+
+//WIP For ScrollTop component/function
+// .go-top {
+//   position: fixed;
+//   cursor: pointer;
+//   bottom: 30px;
+//   right: 0;
+//   color: #ffffff;
+//   background-color: #c679e3;
+//   z-index: 1;
+//   width: 90px;
+//   text-align: center;
+//   height: 45px;
+//   border-radius: 10px 0 0 10px;
+//   line-height: 46px;
+//   -webkit-transition: 0.5s;
+//   transition: 0.5s;
+// }
