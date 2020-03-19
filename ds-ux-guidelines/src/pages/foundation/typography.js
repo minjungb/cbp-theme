@@ -5,6 +5,10 @@ import SEO from "../../ds-components/seo"
 
 //WIP
 // import ScrollTop from "../../ds-components/layout/scrollToTop";
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae92e25cfe29832e09c36b9d8b08b3db22a61a1a
 
 const TypographyPage = () => (
   <Layout>
@@ -1294,6 +1298,7 @@ const TypographyPage = () => (
       <br />
 
       <section>
+<<<<<<< HEAD
         <h2 className="cbp-heading-2">
           Vertical Rhythm
           <a
@@ -1304,6 +1309,9 @@ const TypographyPage = () => (
             Back to Top <i className="fas fa-arrow-up"></i>
           </a>
         </h2>
+=======
+        <h2 className="cbp-heading-2">Vertical Rhythm</h2>
+>>>>>>> ae92e25cfe29832e09c36b9d8b08b3db22a61a1a
         <br />
         <p className="cbp-body">
           Human beings operate on identifying patterns. The "Principle of
@@ -1458,6 +1466,7 @@ const TypographyPage = () => (
         <strong style={{ color: "red" }}>[**image of text hierarchy**]</strong>
       </section>
 
+<<<<<<< HEAD
       <br />
 
       <section>
@@ -3146,6 +3155,8 @@ const TypographyPage = () => (
         </p>
       </section>
 
+=======
+>>>>>>> ae92e25cfe29832e09c36b9d8b08b3db22a61a1a
       {/* <section>
         <h2 className="cbp-heading-2 pad-bottom"> Usage </h2>
 
