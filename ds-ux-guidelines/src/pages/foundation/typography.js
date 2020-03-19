@@ -1449,6 +1449,692 @@ const TypographyPage = () => (
         <strong style={{ color: "red" }}>[**image of text hierarchy**]</strong>
       </section>
 
+      <br />
+
+      <section>
+        <h2 className="cbp-heading-2">Horizontal Rhythm</h2>
+        <br />
+        <p className="cbp-body">
+          While vertical rhythm techniques focus on hierarchy, horizontal rhythm
+          is all about legibility. How far apart is each individua l character
+          is from its neighbors, line length, and alignment all impact user
+          retention of information.
+        </p>
+
+        <br />
+        <br />
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>[**Image Here (maybe)**]</strong>
+      </section>
+
+      <br />
+
+      <section>
+        <h3 className="cbp-heading-3">Line Length</h3>
+        <br />
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**image of line length good and bad**]
+        </strong>
+
+        <br />
+        <br />
+
+        <p className="cbp-body">
+          When it comes to large blocks of text there have been several studies
+          showing that people definitely have a limit to how wide a block of
+          text should be. It's partly to do with how our eyes work mechanically,
+          but also just how we scan content. There have been many studies on
+          this subject where a general rule of between 45-85 characters fits the
+          typical users needs. Any longer and it can be tiring on our eyes. Any
+          shorter and reading comprehension can suffer because sentences no
+          longer flow naturally. If lines are too long, readers tend to
+          accidentally read the same length multiple times (also known as
+          "doubling"). Essentially this has to do with our body copy classes as
+          this should be the only instances where we are dealing with long
+          blocks of text and multiple paragraphs. Headings should be limited in
+          length by their very nature.
+        </p>
+
+        <br />
+
+        <p className="cbp-body">
+          We can control control line length in two ways; the container width
+          and the max-width property. When we think of responsive layouts, text
+          boxes are aligned to a number of grid columns. In a situation where a
+          block of paragraph text is in the context of a large screen, assigning
+          col-12 (essentially full screen) would not be a great idea. The line
+          length would just be too long. Choosing a smaller amount of columns
+          like 4 or 5 would be much more reasonable and would result in a much
+          better measure. When the viewport gets to a smaller form factor like
+          phones, the text box should be 4-col (full screen) by default as
+          anything less would just be too short and would result in the user not
+          having a great experience. For our body copy classes we have built in
+          a safety mechanism with assigning a max-width of 75em. Why em? Because
+          line length essentially has nothing to do with our root settings and
+          everything to do with the exact type class we're working with.
+        </p>
+
+        <br />
+
+        <p className="cbp-subhead-text">
+          <em>
+            Learn more about the CBP Design System's grid settings under the
+            Spacing, grid, layout section in foundations.{" "}
+            <strong style={{ color: "red" }}>[**link**]</strong>
+          </em>
+        </p>
+      </section>
+
+      <br />
+
+      <section>
+        <h3 className="cbp-heading-3">
+          Columns, Paragraphs, and Logical Reading Order
+        </h3>
+        <br />
+        <br />
+
+        <h4 className="cbp-heading-4">Logical Reading Order</h4>
+        <br />
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**image of what logical reading order / maybe eye F patterns**]
+        </strong>
+
+        <br />
+        <br />
+
+        <p className="cbp-body">
+          People naturally read content in a certain pattern in western
+          civilizations. We start at the top-left of the page and read
+          left-to-right down the page. When designing your layouts keep in mind
+          how your user’s eyes will flow down the page and consume your content.
+          When considering when and if to break large amounts of text up into
+          columns you should keep in mind that your layouts don’t exist in a
+          static viewport size. Pages essentially can scroll infinitely.
+          <br />
+          <br />
+          We recommend you go through each of the major breakpoints (see more in
+          the Spacing, Grid, and Layout section of foundations) and address the
+          following questions:
+        </p>
+
+        <div className="content">
+          <ul>
+            <li>
+              Would it be frustrating for the user read a single long column of
+              text and have to scroll a long ways back up the page to get to the
+              next relevant area of the page?
+            </li>
+            <li>Does the order of your content make sense?</li>
+            <li>Are you keeping line length principles in mind?</li>
+          </ul>
+        </div>
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**image of logical reading order**]
+        </strong>
+      </section>
+
+      <br />
+
+      <section>
+        <h3 className="cbp-heading-3">Letter Spacing</h3>
+        <br />
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**image explaining why this is important**]
+        </strong>
+
+        <br />
+        <br />
+
+        <p className="cbp-body">
+          The spaces between the letters are just as important as the words
+          themselves. While reading, the spacing betweenindividual letters (aka
+          kerning) and words is super important. If the kerning is too tight,
+          letters may overlap and generally legibility is hindered. Too far
+          apart and words start to blend together. The Font-kerning property
+          applies certain amounts of space between individual character
+          combinations. For example, when capital V and A are next to each
+          other. In general we keep this property set to “normal” which means it
+          applies tighter kerning at larger sizes and not on smaller sizes, but
+          they also don’t have a consensus about where these boundaries are
+          across browsers. In general we try to control these settings with the
+          letter-spacing property. Letter- spacing (also known as tracking)
+          applies space between characters uniformly. For body copy we keep this
+          set to normal, as this will allow ligatures to appear. As the sizing
+          of our heading classes grows however, negative letter-spacing may be
+          added to keep characters from drifting from each other.
+        </p>
+      </section>
+
+      <br />
+
+      <section>
+        <h3 className="cbp-heading-3">Alignment</h3>
+        <br />
+
+        <p className="cbp-body">
+          Alignment refers to which vertical axis type is aligned to. Alignment
+          allows a user’s eye to have a reference to return to as they finish
+          each line of text. In general there are 4 alignment types.
+        </p>
+      </section>
+
+      <br />
+
+      <section>
+        <h4 className="cbp-heading-4">Left-Aligned (Rag Right)</h4>'
+        <br />
+        <p className="cbp-body">
+          This is pretty standard stuff. Fits how western style cultures read.
+          The vast majority of what we do should feature this style alignment.
+        </p>
+        <br />
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**example of left aligned text**]
+        </strong>
+      </section>
+
+      <br />
+
+      <section>
+        <h4 className="cbp-heading-4">Center Aligned</h4>
+        <br />
+        <p className="cbp-body">
+          This should have very limited applications. Should be a special use
+          case.
+        </p>
+        <br />
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**example of center aligned text**]
+        </strong>
+      </section>
+
+      <br />
+
+      <section>
+        <h4 className="cbp-heading-4">Right Aligned (Rag Left)</h4>
+        <br />
+        <p className="cbp-body">
+          This should probably be avoided if not only used in a very special use
+          case.
+        </p>
+        <br />
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**example of right aligned text**]
+        </strong>
+      </section>
+
+      <br />
+
+      <section>
+        <h4 className="cbp-heading-4">Justified (DO NOT USE)</h4>
+        <br />
+        <p className="cbp-body">
+          Oh dear. Just never, ever do this. On top of looking awful, it is very
+          inaccessible. Justified text can be difficult to read for people with
+          certain disabilities like dyslexia. <br />
+          <strong>DO NOT USE JUSTIFIED.</strong>
+        </p>
+        <br />
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**example of justified text**]
+        </strong>
+      </section>
+
+      <br />
+
+      {/*PERFORMANCE*/}
+      <section>
+        <h2 className="cbp-heading-2">Performance</h2>
+        <br />
+        <p className="cbp-body">
+          Application load times are an important consideration for CBP. While
+          we may not have to worry about things like customer conversion rates
+          (when users just get tired of waiting for the page to load and
+          bounce), we do have to worry about how poor optimization leads to
+          latency in how CBP conducts business. Not to mention how this
+          frustrates our users trying to do their jobs. To learn more about our
+          approach to performance, please see the Performance section of
+          foundations.
+        </p>
+      </section>
+
+      <br />
+
+      <section>
+        <section>
+          <h3 className="cbp-heading-3">File Type Support & Self Hosting</h3>
+          <br />
+          <p className="cbp-body">
+            One "lesson learned" from our previous effort with the CBP Theme, is
+            that in not centrally hosting our font files, we often forced the
+            page to have to load multiple copies of the same asset. One widget
+            referenced a copy of the font files, the page referenced it, then
+            maybe another asset did again. This would pile on and cause our apps
+            to suffer. This is not to mention that we effectively forced our
+            development teams to self-host a copy. For our internal CBP
+            development teams we host centralized copies of our font files so
+            everything can be accessed once and allow our users to be able to
+            properly cache these files.
+          </p>
+
+          <br />
+
+          <p className="cbp-body">
+            We support two font file types. The .woff filetype is provided to
+            give compatibility with some older versions of browsers (at some
+            point in the future this may be retired). The .woff2 filetype is
+            what modern browsers use. All other filetypes are not supported or
+            endorsed for use with the CBP Design System. For those who are
+            self-hosting be especially wary of the .eot filetype. It is somewhat
+            sticky with users who for whatever reason are still using Internet
+            Explorer, if it is mentioned in the stylesheet or is simply present
+            for it to reference the browser will use it. Eot files have
+            notoriously poor aliasing rules and will appear fuzzy and will tend
+            to fill in negative spaces in certain characters. For the sake of
+            legibility avoid this file type.
+          </p>
+        </section>
+
+        <br />
+
+        <section>
+          <h4 className="cbp-heading-4">File Types Provided</h4>
+
+          <br />
+          <br />
+
+          <h5 className="cbp-heading-5">TTF - TrueType Files (provided)</h5>
+          <br />
+          <p className="cbp-body">
+            This is a traditional desktop font file-type. We will provide these
+            to developers for local development purposes. Each weight is housed
+            in a separate file. Holds up to 210 characters per file.
+          </p>
+
+          <br />
+          <br />
+
+          <h5 className="cbp-heading-5">
+            OTF - OpenType Files (not available for Roboto)
+          </h5>
+          <br />
+          <p className="cbp-body">
+            This is the new hotness when it comes to desktop standard fonts. All
+            characters are hosted inside of a single file. Holds up to 65,536
+            characters. Extensive language and feature support. Sadly Roboto is
+            not yet available in this format.
+          </p>
+
+          <br />
+          <br />
+
+          <h5 className="cbp-heading-5">
+            WOFF - Web Open Font Format v1 (provided)
+          </h5>
+          <br />
+          <p className="cbp-body">
+            This is basically the same thing as the TTF or OTF file types but
+            allows for compression and optimized for use in browsers. We will
+            include this file as part of the system because it allows support
+            for deprecated browsers.
+          </p>
+
+          <br />
+          <br />
+
+          <h5 className="cbp-heading-5">
+            WOFF2 - Web Open Font Format v2 (provided)
+          </h5>
+          <br />
+          <p className="cbp-body">
+            This is WOFF v1 but with 30% better compression. This is the new
+            standard going forward and will be included with the system. The
+            inclusion of WOFF v1 is basically an IE tax and will at some point
+            be deprecated.
+          </p>
+        </section>
+      </section>
+
+      <br />
+
+      <section>
+        <h4 className="cbp-heading-4">Text Loading</h4>
+        <br />
+        <p className="cbp-body">
+          There are few different approaches to handling the loading of text.
+          When it comes to loading the specific font asset, ie Roboto, there are
+          few different philosophies. We prefer the FOUT method. The reason is
+          because with centrally hosting these font assets and the fact that
+          most of our users with have them cached we really only have to worry
+          about the content itself loading not the font. When it comes to
+          content we prefer our applications to use skeleton states and
+          progressive loading techniques.
+        </p>
+
+        <br />
+        <br />
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>[**Insert Image of FOUT**]</strong>
+
+        <br />
+        <br />
+
+        <h5 className="cbp-heading-5">FOUT: Flash of Unstyled Text.</h5>
+        <br />
+        <p className="cbp-body">
+          Basically in the period between when a user hits a page and when the
+          font file kicks in and renders. Sometimes this can be very noticeable
+          and a jarring experience for users depending on how long this
+          experience is. With modern caching abilities, tweaking the load order
+          of file, as well as taking a comprehensive approach to loading
+          (skeleton states, progressive loading, etc) this can be mitigated or
+          eliminated.
+        </p>
+
+        <br />
+        <br />
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>[**Insert Image of FOIT**]</strong>
+
+        <br />
+        <br />
+
+        <h5 className="cbp-heading-5">FOIT: Flash of Invisible Text</h5>
+        <br />
+        <p className="cbp-body">
+          This is an approach to dealing with FOUT by telling the browser not to
+          display text at all until the font file is rendered. The issue is if
+          for any reason the font file doesn’t load, the text will NEVER load.
+          This runs antithetical to having fall-back fonts. Probably an approach
+          to be avoided.
+        </p>
+
+        <br />
+        <br />
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>[**Insert Image of FOFT**]</strong>
+
+        <br />
+        <br />
+
+        <h5 className="cbp-heading-5">FOFT: Flash of Faux Text</h5>
+        <br />
+        <p className="cbp-body">
+          This refers to loading fonts in a particular sequence. Starting with
+          Body text, then headings, etc. Until they load a web safe font like
+          Georgia is rendered. This messes with the default browser settings and
+          has been known to at times to crash browsers. Best to just take a
+          better approach to page loading and deal with FOUT.
+        </p>
+
+        <br />
+        <br />
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**Insert Image of Progressive Loading**]
+        </strong>
+
+        <br />
+        <br />
+
+        <h5 className="cbp-heading-5">Progressive Loading</h5>
+        <br />
+        <p className="cbp-body">
+          Instead of waiting to render the page until the whole thing loads. Go
+          one by one down the page, or segment and prioritize elements above the
+          fold.
+        </p>
+
+        <br />
+        <br />
+
+        {/* @TODO: Delete after content is received */}
+        <strong style={{ color: "red" }}>
+          [**Insert Image of Skeleton UI**]
+        </strong>
+
+        <br />
+        <br />
+
+        <h5 className="cbp-heading-5">Skeleton UI</h5>
+        <br />
+        <p className="cbp-body">
+          This is where a dummy placeholder box is placed to let the user know
+          that content is being loaded but is taking longer than anticipated.
+        </p>
+      </section>
+
+      <br />
+
+      <section>
+        <section>
+          <h2 className="cbp-heading-2">Micro-Typography</h2>
+          <br />
+          <p className="cbp-body">
+            As people tend to say, “the devil is in the details.” The following
+            topics may come across as trivial to some, but when careful thought
+            is given to these subjects, we can create much better designed
+            experiences for our users.
+          </p>
+        </section>
+
+        <br />
+
+        <section>
+          <h3 className="cbp-heading-3">Ligatures</h3>
+          <br />
+          {/* @TODO: Delete after content is received */}
+          <strong style={{ color: "red" }}>
+            [**image examples of ligatures**]
+          </strong>
+
+          <br />
+
+          <p className="cbp-body">
+            Ligatures began in the illuminated manuscripts days. By connecting
+            certain common letter combinations together this helped those monks
+            save time in copying their books. These letter combinations were
+            also tricky for them because they would often run into each other
+            causing legibility issues. By standardizing how these letters could
+            run together they ended up saving time and improving overall
+            legibility by keeping horizontal rhythm consistent. Common ligatures
+            are ones like ff, fi, fl, ffi, ffl, and th. Enabled by default on
+            most browsers on smaller text sizes (this is defined differently by
+            each browser unfortunately).
+            <code>Text-rendering: optimizeLegibility;</code>
+            will enable ligatures and kerning but can add to load time (we
+            believe this is negligible. If you set letter spacing at all in your
+            text though, ligatures will be stripped out (this is why body copy
+            is set to normal). Ligatures aren’t as necessary for headings
+            because there shouldn't be long blocks of text.
+            <br />
+            <br />
+            Discretionary ligatures are non standard and don’t significantly
+            contribute to legibility, but offer a more stylistic approach. ch,
+            ck , ct, st. Avoid using these.
+            <br />
+            <br />
+            Contextual ligatures come with script style typefaces to help
+            combine letters to make the appearance of a single pen stroke. We
+            don’t use script style so these should also be avoided.
+            <br />
+            <br />
+            Enabling common ligatures across browsers: this class is found in
+            the CBP DS Core CSS file.
+            <br />
+            <br />
+            <br />
+            <div className="code-snippet">
+              <h5 className="cbp-heading-5">Ligature Code</h5>
+              <br />
+              <deckgo-highlight-code language="css" highlight-lines="2,2">
+                <code>
+                  {`p {`}
+                  <br />
+                  &emsp;&emsp;{`font-feature-settings: "liga";`}
+                  <br />
+                  &emsp;&emsp;{`-webkit-font-feature-settings: "liga";`}
+                  <br />
+                  &emsp;&emsp;{'-moz-font-feature-settings: "liga";'}
+                  <br />
+                  &emsp;&emsp;{"text-rendering: optimizeLegibility;"}
+                  <br />
+                  {"}"}
+                </code>
+              </deckgo-highlight-code>
+            </div>
+          </p>
+        </section>
+
+        <br />
+
+        <section>
+          <h3 className="cbp-heading-3">Small Caps</h3>
+          <br />
+          <p className="cbp-body">
+            Small caps are smaller versions of capital letters so that they
+            merge better inside of body text. These are great for acronyms and
+            abbreviations. REGULAR ALL CAPS text inside of a block of text can
+            cause disruption to overall horizontal rhythm as well as give the
+            user a false indication that this text might be interactive.
+            <br />
+            <br />
+            "Fake small caps" (created by css) which just reduce the font size
+            (including stroke width) is not a good solution because it
+            interrupts flow. If your font does not have genuine small caps
+            included, do not turn on this feature.
+            <br />
+            <br />
+            This results in the need for a special type class for small caps.
+            This class should be applied to acronyms and abbreviations (whether
+            or not it has periods between letters) by enclosing the text in a{" "}
+            <code>&lt;span></code> (if inside of a larger block of text) and
+            applying the following class (<code>.small-cap</code>). This class
+            is found in the CBP DS Core CSS file.
+          </p>
+
+          <br />
+          <br />
+          {/* @TODO: Delete after content is received */}
+          <strong style={{ color: "red" }}>
+            [**image of small caps and example of fake small caps**]
+          </strong>
+
+          <br />
+          <br />
+          <br />
+          <div className="code-snippet">
+            <h5 className="cbp-heading-5">Small Caps Code</h5>
+            <br />
+            <deckgo-highlight-code language="css" highlight-lines="2,2">
+              <code>
+                {`p {`}
+                <br />
+                &emsp;&emsp;{`//change only lowercase to small caps`}
+                <br />
+                &emsp;&emsp;{`font-variant-caps: small-caps;`}
+                <br />
+                &emsp;&emsp;{`font-feature-settings: "smcp";`}
+                <br />
+                <br />
+                &emsp;&emsp;{`//change all letters into small caps`}
+                <br />
+                &emsp;&emsp;{`font-variant-caps: all-small-caps;`}
+                <br />
+                &emsp;&emsp;{`font-feature-settings: "c2sc", "smcp";`}
+                <br />
+                {"}"}
+              </code>
+            </deckgo-highlight-code>
+          </div>
+        </section>
+
+        <br />
+
+        <section>
+          <h3 className="cbp-heading-3">Punctuation</h3>
+          <br />
+          {/* @TODO: Delete after content is received */}
+          <strong style={{ color: "red" }}>
+            [**table of punctuation name, html tag, use case, hotkeys**]
+          </strong>
+        </section>
+
+        <br />
+
+        <section>
+          <h3 className="cbp-heading-3">
+            The Character Viewer on your Computer
+          </h3>
+          <br />
+          <p className="cbp-body">
+            This window shows all “glyphs” available in the particular font you
+            have selected on your desktop. It it for use on your PC, use HTML
+            codes for calling these glyphs in your code.
+          </p>
+
+          <br />
+
+          <section>
+            <h4 className="cbp-heading-4">
+              How to open the Character Viewer on your Mac:{" "}
+            </h4>
+
+            <p className="cbp-body">
+              <div className="content">
+                <ol>
+                  <li>System Preferences → Keyboard</li>
+                  <li>
+                    Check the box “Show Keyboard, Emoji & Symbol Viewers in menu
+                    bar”
+                  </li>
+                  <li>
+                    Click the keyboard icon next to the clock in your menu bar
+                    and select “Show Emoji & Symbols”
+                  </li>
+                </ol>
+              </div>
+            </p>
+          </section>
+
+          <br />
+
+          <section>
+            <h4 className="cbp-heading-4">
+              How to open the Character Viewer on your Windows PC:{" "}
+            </h4>
+            <p className="cbp-body">
+              <div className="content">
+                <ol>
+                  <li>
+                    Click the Start button and type “character map” into the
+                    search box
+                  </li>
+                  <li>In the list of results, click “Character Map”</li>
+                </ol>
+              </div>
+            </p>
+          </section>
+        </section>
+      </section>
+
       {/* <section>
         <h2 className="cbp-heading-2 pad-bottom"> Usage </h2>
 
