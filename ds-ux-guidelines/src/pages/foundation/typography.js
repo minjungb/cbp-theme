@@ -1467,7 +1467,7 @@ const TypographyPage = () => (
           is all about legibility. How far apart is each individua l character
           is from its neighbors, line length, and alignment all impact user
           retention of information.
-        </p>
+  </p>
 
         <br />
         <br />
@@ -1484,7 +1484,7 @@ const TypographyPage = () => (
         {/* @TODO: Delete after content is received */}
         <strong style={{ color: "red" }}>
           [**image of line length good and bad**]
-        </strong>
+  </strong>
 
         <br />
         <br />
@@ -1632,23 +1632,23 @@ const TypographyPage = () => (
           Alignment refers to which vertical axis type is aligned to. Alignment
           allows a user’s eye to have a reference to return to as they finish
           each line of text. In general there are 4 alignment types.
-        </p>
+  </p>
       </section>
 
       <br />
 
       <section>
         <h4 className="cbp-heading-4">Left-Aligned (Rag Right)</h4>'
-        <br />
+  <br />
         <p className="cbp-body">
           This is pretty standard stuff. Fits how western style cultures read.
           The vast majority of what we do should feature this style alignment.
-        </p>
+  </p>
         <br />
         {/* @TODO: Delete after content is received */}
         <strong style={{ color: "red" }}>
           [**example of left aligned text**]
-        </strong>
+  </strong>
       </section>
 
       <br />
@@ -1659,12 +1659,12 @@ const TypographyPage = () => (
         <p className="cbp-body">
           This should have very limited applications. Should be a special use
           case.
-        </p>
+  </p>
         <br />
         {/* @TODO: Delete after content is received */}
         <strong style={{ color: "red" }}>
           [**example of center aligned text**]
-        </strong>
+  </strong>
       </section>
 
       <br />
@@ -1675,7 +1675,7 @@ const TypographyPage = () => (
         <p className="cbp-body">
           This should probably be avoided if not only used in a very special use
           case.
-        </p>
+  </p>
         <br />
         {/* @TODO: Delete after content is received */}
         <strong style={{ color: "red" }}>
