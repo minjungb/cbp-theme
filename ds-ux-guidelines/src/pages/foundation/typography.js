@@ -3,12 +3,6 @@ import Layout from "../../ds-components/layout/layout"
 import ContentHeader from "../../ds-components/content-header/contentHeader"
 import SEO from "../../ds-components/seo"
 
-//WIP
-// import ScrollTop from "../../ds-components/layout/scrollToTop";
-<<<<<<< HEAD
-=======
-
->>>>>>> 7a91d114773a21e2225042e95b4d245a4bf66f6c
 const TypographyPage = () => (
   <Layout>
     <SEO title="CBP Design System | Typography" />
