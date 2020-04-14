@@ -10,17 +10,17 @@ These tools were not designed to be a complete replacement for regular accessibi
 
 There are a few different scripts running these automated tools, the first of which should not need to be ran manually.
 
-So, this script ` "pa11y-ci": "./node_modules/.bin/pa11y-ci" ` runs the testing script directly from within the pa11y-ci module.
+So, this script `"pa11y-ci": "./node_modules/.bin/pa11y-ci"` runs the testing script directly from within the pa11y-ci module.
 
 The next two are for regular usage, both are also included within the overall build script.
 
-` "pa11y-test": "pa11y-ci --json > \"pa11y/pa11y-ci-results.json\" || exit 0", `
+`"pa11y-test": "pa11y-ci --json > \"pa11y/pa11y-ci-results.json\" || exit 0",`
 
 This runs the accessibility test and writes any finding in .json format to file named "pa11y-ci-results.json" within the framework's root directory.
 
-` "pa11y-report": "pa11y-ci-reporter-html -s \"./pa11y/pa11y-ci-results.json\" -d \"./pa11y\" && open \"pa11y/index.html\""`
+`"pa11y-report": "pa11y-ci-reporter-html -s \"./pa11y/pa11y-ci-results.json\" -d \"./pa11y\" && open \"pa11y/index.html\""`
 
-This pull any findings from the .json results and formats individual .html file for each page tested, along with creating a findings "dashboard" index page.  Note: at the end of running ` npm run build-guide `, the finding dashboard will open locally.
+This pull any findings from the .json results and formats individual .html file for each page tested, along with creating a findings "dashboard" index page. Note: at the end of running `npm run build-guide`, the finding dashboard will open locally.
 
 In addition to all of the above, we also have a setting that create a screen shot of our guide's index page before any css is applied.
 Note: We can do this for every page we test, or none at all if we decided.

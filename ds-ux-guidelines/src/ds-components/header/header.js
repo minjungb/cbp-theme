@@ -4,7 +4,9 @@ import React from "react"
 
 const Header = ({ title }) => (
   <header className="cbp-header">
-    <a className="cbp-header__skipnav" href="#main-content">Skip to main content</a>
+    <a className="cbp-header__skipnav" href="#main-content">
+      Skip to main content
+    </a>
     <nav className="cbp-header__main level">
       <div className="level-left">
         <div className="level-item">
@@ -16,7 +18,7 @@ const Header = ({ title }) => (
           </Link>
         </div>
       </div>
-    
+
       <div className="level-right">
         <a href="#noId" className="is-size-7">
           &nbsp; &nbsp; Changelog
@@ -26,7 +28,7 @@ const Header = ({ title }) => (
           <i className="fab fa-github"></i>
           &nbsp; View on Github
         </a>
-      </div>    
+      </div>
     </nav>
   </header>
 )
